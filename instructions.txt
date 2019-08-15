@@ -1,0 +1,29 @@
+Requires: Python 3+, preferred 3.6 >; 
+          pip, preferred upgrade to latest, [19.2.2];
+0. Clone / download the git repo; go to that directory
+
+1. Install virtualenv
+     	pip install virtualenv
+
+2. Create a virtual environemnt
+	virtualenv <name>
+
+3. Activate the virtual environment 
+	source <name>/bin/activate      //if Linux or MACOS
+	<name>\Scripts\activate         //if Windows & in command prompt
+	source <name>/Scripts/activate  //if Windoes & using bash prompt or a similar tool
+4. Install all requirements
+	pip install --requirement requirements.txt
+	//NOTE: for dependencies to be resolved on it's own no version numbers are mentioned in the requirements.txt
+
+5. Run Jupyter notebook
+	jupyter-notebook	//it will open in your browser 
+
+6. Go to Converstant-data-analysis.ipynb and restart the kernel 
+
+NOTE: Conversant-data-analysis.html is uploaded for your convenience as well.
+
+7. After you "Quit" from jupyter-notebook, please deactivate your virtualenv; run:
+	deactivate 
+
+Thank you
